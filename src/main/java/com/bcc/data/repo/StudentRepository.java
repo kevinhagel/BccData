@@ -1,11 +1,21 @@
 package com.bcc.data.repo;
 
 import com.bcc.data.entity.Student;
-import java.util.Optional;
-import org.springframework.data.jpa.repository.JpaRepository;
+import java.util.List;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.query.Param;
 
-public interface StudentRepository extends JpaRepository<Student, Long> {
+/**
+ * Student crud repository
+ */
+public interface StudentRepository extends CrudRepository<Student, Long> {
 
-  @Override
-  Optional<Student> findById(Long aLong);
+
+  /**
+   * find students by matching family name
+   * @param familyName
+   * @return
+   */
+  List<Student> findAllByFamilyName(@Param("familyName") String familyName);
+
 }

@@ -1,15 +1,12 @@
 package com.bcc.data.utils;
 
-import com.bcc.data.dto.CourseDto;
-import com.bcc.data.dto.InstructorDto;
-import com.bcc.data.dto.ParentDto;
-import com.bcc.data.dto.SchoolDto;
-import com.bcc.data.dto.StudentDto;
+import com.bcc.data.dto.*;
 import com.bcc.data.entity.Course;
 import com.bcc.data.entity.Instructor;
-import com.bcc.data.entity.Parent;
+import com.bcc.data.entity.Contact;
 import com.bcc.data.entity.School;
 import com.bcc.data.entity.Student;
+import org.hibernate.annotations.Parent;
 import org.springframework.beans.BeanUtils;
 
 /**
@@ -26,7 +23,7 @@ public class MapperUtils {
    * @param student the source student.
    * @return the destination student dto.
    */
-  public static StudentDto entityToDto(Student student) {
+  public static StudentDto contactEntityToDto(Student student) {
     StudentDto studentDto = new StudentDto();
     BeanUtils.copyProperties(student, studentDto);
     return studentDto;
@@ -50,7 +47,7 @@ public class MapperUtils {
    * @param course the source course.
    * @return the destination course dto.
    */
-  public static CourseDto entityToDto(Course course) {
+  public static CourseDto contactEntityToDto(Course course) {
     CourseDto courseDto = new CourseDto();
     BeanUtils.copyProperties(course, courseDto);
     return courseDto;
@@ -70,15 +67,15 @@ public class MapperUtils {
 
 
   /**
-   * Maps a {@link Parent} to a {@link ParentDto}
+   * Maps a {@link Parent} to a {@link ContactDto}
    *
-   * @param parent the source course.
+   * @param contact the source course.
    * @return the destination course dto.
    */
-  public static ParentDto entityToDto(Parent parent) {
-    ParentDto parentDto = new ParentDto();
-    BeanUtils.copyProperties(parent, parentDto);
-    return parentDto;
+  public static ContactDto entityToDto(Contact contact) {
+    ContactDto contactDto = new ContactDto();
+    BeanUtils.copyProperties(contact, contactDto);
+    return contactDto;
   }
 
   /**
@@ -87,10 +84,10 @@ public class MapperUtils {
    * @param parentDto the source course dto.
    * @return the destination course.
    */
-  public static Parent dtoToEntity(ParentDto parentDto) {
-    Parent parent = new Parent();
-    BeanUtils.copyProperties(parentDto, parent);
-    return parent;
+  public static Contact dtoToEntity(ContactDto contactDto) {
+    Contact contact = new Contact();
+    BeanUtils.copyProperties(contactDto, contact);
+    return contact;
   }
 
   /**
@@ -99,7 +96,7 @@ public class MapperUtils {
    * @param school the source school.
    * @return the destination school dto.
    */
-  public static SchoolDto entityToDto(School school) {
+  public static SchoolDto contactEntityToDto(School school) {
     SchoolDto schoolDto = new SchoolDto();
     BeanUtils.copyProperties(school, schoolDto);
     return schoolDto;
@@ -124,7 +121,7 @@ public class MapperUtils {
    * @param instructor the source instructor.
    * @return the destination instructor dto.
    */
-  public static InstructorDto entityToDto(Instructor instructor) {
+  public static InstructorDto contactEntityToDto(Instructor instructor) {
     InstructorDto instructorDto = new InstructorDto();
     BeanUtils.copyProperties(instructor, instructorDto);
     return instructorDto;

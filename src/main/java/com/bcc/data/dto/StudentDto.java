@@ -17,7 +17,7 @@ import lombok.experimental.Accessors;
 @AllArgsConstructor
 @NoArgsConstructor
 public class StudentDto {
-  private String id;
+  private Long id;
   private String firstName;
   private String familyName;
   private String homePhoneNumber;
