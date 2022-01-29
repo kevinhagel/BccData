@@ -18,7 +18,7 @@ import lombok.experimental.Accessors;
 @NoArgsConstructor
 public class InstructorDto {
 
-  private String id;
+  private Long id;
   private String phoneNumber;
   private String fullName;
   private String address;

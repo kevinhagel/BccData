@@ -19,7 +19,7 @@ import lombok.experimental.Accessors;
 @AllArgsConstructor
 @NoArgsConstructor
 public class SchoolDto {
-  private String id;
+  private Long id;
   private String name;
   private List<String> contacts;
   private String contactName;

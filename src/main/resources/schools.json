@@ -1,0 +1,291 @@
+[ {
+  "id" : null,
+  "name" : "Кирил и Методий",
+  "contacts" : null,
+  "contactName" : "Иван Иванов",
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "Братя Миладинови",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "Петко Р.Славейков",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "Васил Априлов",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : "+359 56 / 80 03 10",
+  "addressStreet" : "бул. Сан Стефано 88",
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "Любен Каравелов",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "Княз Борис",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "Пейо Яворов",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "Михаил Лъкатник",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "Климент Охридски",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "Константин Преславски",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "Елин Пелин",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "Петко Росен",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "Георги Бенковски",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "AГ",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "НГ",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "ФГ",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "ИспГ",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "ИтГ",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "МГ",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "РГ",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "ИТ",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "МехТ",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "ЕлТ",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "СтрТ",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "ТОХ",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "ХТ",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "Добри Чинтулов",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "Йордан Йовков",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+}, {
+  "id" : null,
+  "name" : "Антон Страшимиров",
+  "contacts" : null,
+  "contactName" : null,
+  "contactPhone" : null,
+  "addressStreet" : null,
+  "addressCity" : "Бургас",
+  "notes" : null,
+  "defaultClassesList" : [ ]
+} ]

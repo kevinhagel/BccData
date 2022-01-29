@@ -1,13 +1,27 @@
 package com.bcc.data.entity;
 
+import static javax.persistence.CascadeType.ALL;
+
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import java.io.Serializable;
+import java.util.HashSet;
+import java.util.Set;
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 /**
@@ -17,16 +31,20 @@ import lombok.NoArgsConstructor;
  * useful.
  *
  * @author Kevin Hagel
- @Data
+ * @Data
  */
 @Data
+@EqualsAndHashCode(exclude = {"id"})
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
-public class School {
+public class School implements Serializable {
+
+  private static final long serialVersionUID = 495716772949477661L;
+
 
   @Id
-  @GeneratedValue(strategy = GenerationType.AUTO)
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
   @Column(name = "id", nullable = false)
   private Long id = -1l;
 
@@ -36,4 +54,9 @@ public class School {
   private String addressStreet;
   private String addressCity;
   private String notes;
+  private String website;
+
+
+  @OneToMany(mappedBy = "school", cascade = CascadeType.ALL)
+  private Set<SchoolTerm> schoolTerms = new HashSet<>(0);
 }

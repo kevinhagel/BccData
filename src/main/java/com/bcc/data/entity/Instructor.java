@@ -1,5 +1,7 @@
 package com.bcc.data.entity;
 
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -8,6 +10,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
@@ -19,13 +22,20 @@ import lombok.experimental.Accessors;
  * @since 2022-01-29
  */
 @Data
+@EqualsAndHashCode(exclude = {"id"})
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
-public class Instructor  {
+@JsonIdentityInfo(
+  generator = ObjectIdGenerators.PropertyGenerator.class,
+  property = "id")
+public class Instructor implements Serializable {
+
+  private static final long serialVersionUID = 1627400901879274951L;
+
 
   @Id
-  @GeneratedValue(strategy = GenerationType.AUTO)
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
   @Column(name = "id", nullable = false)
   private Long id = -1l;
 

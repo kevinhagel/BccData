@@ -16,7 +16,8 @@ import lombok.experimental.Accessors;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CourseDto {
-  private String id;
+  private Long id;
   private String name;
+  private String description;
 
 }
