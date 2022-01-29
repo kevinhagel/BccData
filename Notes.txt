@@ -1,0 +1,7 @@
+Saturday, January 29th, 2022
+It begins.
+
+sudo -u postgres psql
+postgres# create database BCCDB;
+postgres# create user bccdb_user with encrypted password 'petkovapass';
+postgres# grant all privileges on database BCCDB to bccdb_user
